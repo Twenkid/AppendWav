@@ -28,7 +28,8 @@ scan.exe your_full_path_here >list.txt
 
 - Run scan.bat - it generates list.txt. 
 - Open list.txt and put on top a line pointing to the target directory. The merged files will be created there, e.g.: 
-
+- 
+```
 l:\wav 
 
 l:\italian\wave\0\1b.wav 
@@ -44,7 +45,7 @@ l:\italian\wave\0\5i.wav
 
 # 
 $ 
-
+```
 
 - Run append.bat 
 - Voila! Files from each folder will be merged in 1.wav (first folder in the list), 2.wav, ... N.wav. 
@@ -56,7 +57,7 @@ Next - N lists of path to files to be merged in N.wav. A list ends with "#".
 The file ends with "$". 
 
 Eg.: 
-
+```
 l:\wav 
 
 l:\italian\wave\0\1b.wav 
@@ -94,7 +95,7 @@ l:\italian\wave\2\10i.wav
 
 # 
 $ 
-
+```
 NB: Files in each folder (each merge group) should have the same format. Code is pretty simple yet. 
 
 
