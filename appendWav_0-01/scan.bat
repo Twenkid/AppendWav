@@ -1,0 +1,1 @@
+scan.exe l:\italian\wave\1\ >list.txt

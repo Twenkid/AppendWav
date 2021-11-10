@@ -1,0 +1,1 @@
+appWav.exe list.txt
